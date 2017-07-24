@@ -1,12 +1,13 @@
-# Monero
+# Kredits
 
 Copyright (c) 2014-2017, The Monero Project
+Copyright (c) 2017, The KreditCoin Project
 
 ## Development Resources
 
-- Web: [getmonero.org](https://getmonero.org)
-- Forum: [forum.getmonero.org](https://forum.getmonero.org)
-- Mail: [dev@getmonero.org](mailto:dev@getmonero.org)
+- Web: [kredit-coin.com](https://kredit-coin.com)
+- Forum: [https://bitcointalk.org/index.php?topic=2035053](https://bitcointalk.org/index.php?topic=2035053)
+- Mail: [kreditcoin@gmail.com](mailto:kreditcoin@gmail.com)
 - GitHub: [https://github.com/monero-project/monero](https://github.com/monero-project/monero)
 - IRC: [#monero-dev on Freenode](http://webchat.freenode.net/?randomnick=1&channels=%23monero-dev&prompt=1&uio=d4)
 
