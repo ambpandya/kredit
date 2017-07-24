@@ -17,7 +17,7 @@ KreditCoin provides users with a completely anonymous payment scheme. KreditCoin
 
 ## About this Project
 
-This is the core implementation of KreditCoin aka Kredits. It is open source and completely free to use without restrictions, except for those specified in the license agreement below. There are no restrictions on anyone creating an alternative implementation of KreditCoin that uses the protocol and network in a compatible manner.
+This is the core implementation of the Kredit Project aka Kredits. It is open source and completely free to use without restrictions, except for those specified in the license agreement below. There are no restrictions on anyone creating an alternative implementation of KreditCoin that uses the protocol and network in a compatible manner.
 
 ## License
 
