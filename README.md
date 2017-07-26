@@ -6,9 +6,9 @@ Copyright (c) 2017, The KreditCoin Project
 
 ## Development Resources
 
-- Web: [kredit-coin.com](https://kredit-coin.com)
+- Web: [kreditproject.org](https://kreditproject.org)
 - Forum: [https://bitcointalk.org/index.php?topic=2035053](https://bitcointalk.org/index.php?topic=2035053)
-- Mail: [kreditcoin@gmail.com](mailto:kreditcoin@gmail.com)
+- Mail: [dev@kreditproject.org](mailto:dev@kreditproject.org)
 - GitHub: [https://github.com/kreditcoin-project/kredits](https://github.com/kreditcoin-project/kredits)
 
 ## Introduction
