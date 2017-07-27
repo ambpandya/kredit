@@ -1,4 +1,5 @@
 # Copyright (c) 2014-2017, The Monero Project
+# Copyright (c) 2017, The Kredit Project
 #
 # All rights reserved.
 #
@@ -47,9 +48,9 @@ set(mnemonics_private_headers
   singleton.h
   spanish.h)
 
-monero_private_headers(mnemonics
+kredit_private_headers(mnemonics
   ${mnemonics_private_headers})
-monero_add_library(mnemonics
+kredit_add_library(mnemonics
   ${mnemonics_sources}
   ${mnemonics_headers}
   ${mnemonics_private_headers})
