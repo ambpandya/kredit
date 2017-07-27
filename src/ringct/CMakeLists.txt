@@ -1,4 +1,5 @@
 # Copyright (c) 2016, The Monero Project
+# Copyright (c) 2017, The Kredit Project
 #
 # All rights reserved.
 #
@@ -39,9 +40,9 @@ set(ringct_private_headers
   rctSigs.h
   rctTypes.h)
 
-monero_private_headers(ringct
+kredit_private_headers(ringct
   ${crypto_private_headers})
-monero_add_library(ringct
+kredit_add_library(ringct
   ${ringct_sources}
   ${ringct_headers}
   ${ringct_private_headers})
