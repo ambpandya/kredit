@@ -1,4 +1,5 @@
 # Copyright (c) 2014-2017, The Monero Project
+# Copyright (c) 2017, The Kredit Project
 #
 # All rights reserved.
 #
@@ -54,9 +55,9 @@ else()
   )
 endif()
 
-monero_private_headers(daemonizer
+kredit_private_headers(daemonizer
   ${daemonizer_private_headers})
-monero_add_library(daemonizer
+kredit_add_library(daemonizer
   ${daemonizer_sources}
   ${daemonizer_headers}
   ${daemonizer_private_headers})
