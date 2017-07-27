@@ -28,7 +28,7 @@
 # THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #
 # Parts of this file are originally copyright (c) 2012-2013 The Cryptonote developers
-# Parts of this file are originally copyright (c) 2014-2017 The CMonero Project
+# Parts of this file are originally copyright (c) 2014-2017 The Monero Project
 
 if (WIN32 OR STATIC)
   add_definitions(-DSTATICLIB)
@@ -36,13 +36,13 @@ if (WIN32 OR STATIC)
   add_definitions(-DMINIUPNP_STATICLIB)
 endif ()
 
-function (monero_private_headers group)
+function (kredit_private_headers group)
   source_group("${group}\\Private"
     FILES
       ${ARGN})
 endfunction ()
 
-function (monero_install_headers subdir)
+function (kredit_install_headers subdir)
   install(
     FILES       ${ARGN}
     DESTINATION "include/${subdir}"
@@ -60,7 +60,7 @@ function (enable_stack_trace target)
   endif()
 endfunction()
 
-function (monero_add_executable name)
+function (kredit_add_executable name)
   source_group("${name}"
     FILES
       ${ARGN})
@@ -79,7 +79,7 @@ function (monero_add_executable name)
   enable_stack_trace("${name}")
 endfunction ()
 
-function (monero_add_library name)
+function (kredit_add_library name)
   source_group("${name}"
     FILES
       ${ARGN})
