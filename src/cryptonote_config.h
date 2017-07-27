@@ -1,4 +1,5 @@
 // Copyright (c) 2014-2017, The Monero Project
+// Copyright (c) 2017, The Kredit Project
 // 
 // All rights reserved.
 // 
@@ -27,6 +28,7 @@
 // THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 // 
 // Parts of this file are originally copyright (c) 2012-2013 The Cryptonote developers
+// Parts of this file are originally copyright (c) 2014-2017 The Monero Developers
 
 #pragma once
 
@@ -121,7 +123,7 @@
 
 #define ALLOW_DEBUG_COMMANDS
 
-#define CRYPTONOTE_NAME                         "bitmonero"
+#define CRYPTONOTE_NAME                         "kedit"
 #define CRYPTONOTE_POOLDATA_FILENAME            "poolstate.bin"
 #define CRYPTONOTE_BLOCKCHAINDATA_FILENAME      "data.mdb"
 #define CRYPTONOTE_BLOCKCHAINDATA_LOCK_FILENAME "lock.mdb"
@@ -157,8 +159,8 @@ namespace config
 
   namespace testnet
   {
-    uint64_t const CRYPTONOTE_PUBLIC_ADDRESS_BASE58_PREFIX = 53;
-    uint64_t const CRYPTONOTE_PUBLIC_INTEGRATED_ADDRESS_BASE58_PREFIX = 54;
+    uint64_t const CRYPTONOTE_PUBLIC_ADDRESS_BASE58_PREFIX = ;
+    uint64_t const CRYPTONOTE_PUBLIC_INTEGRATED_ADDRESS_BASE58_PREFIX = ;
     uint16_t const P2P_DEFAULT_PORT = 28080;
     uint16_t const RPC_DEFAULT_PORT = 28081;
     boost::uuids::uuid const NETWORK_ID = { {
