@@ -1,4 +1,5 @@
 // Copyright (c) 2014-2017, The Monero Project
+// Copyright (c) 2017, The Kredit Project
 //
 // All rights reserved.
 //
@@ -32,8 +33,8 @@
 
 #include "bootstrap_file.h"
 
-#undef MONERO_DEFAULT_LOG_CATEGORY
-#define MONERO_DEFAULT_LOG_CATEGORY "bcutil"
+#undef KREDIT_DEFAULT_LOG_CATEGORY
+#define KREDIT_DEFAULT_LOG_CATEGORY "bcutil"
 
 namespace po = boost::program_options;
 
