@@ -44,8 +44,8 @@
 
 #include "fake_core.h"
 
-#undef MONERO_DEFAULT_LOG_CATEGORY
-#define MONERO_DEFAULT_LOG_CATEGORY "bcutil"
+#undef KREDIT_DEFAULT_LOG_CATEGORY
+#define KREDIT_DEFAULT_LOG_CATEGORY "bcutil"
 
 namespace
 {
