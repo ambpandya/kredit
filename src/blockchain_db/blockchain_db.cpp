@@ -32,8 +32,8 @@
 #include "cryptonote_basic/cryptonote_format_utils.h"
 #include "profile_tools.h"
 
-#undef MONERO_DEFAULT_LOG_CATEGORY
-#define MONERO_DEFAULT_LOG_CATEGORY "blockchain.db"
+#undef KREDIT_DEFAULT_LOG_CATEGORY
+#define KREDIT_DEFAULT_LOG_CATEGORY "blockchain.db"
 
 using epee::string_tools::pod_to_hex;
 
